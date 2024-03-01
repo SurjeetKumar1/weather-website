@@ -30,7 +30,7 @@
   margin: 80px 0px;
   border-radius: 13px;
   font-size: 1.2rem;
-  padding-left: 20px;
+  padding-left: 40px;
   background-color: hsla(0, 0%, 100%, 0.77);
   color: #020327;
   outline: none;
@@ -59,6 +59,7 @@
         text-align: center;
            width: 330px;
            height: 600px;
+           margin-bottom: 160px;
        }
        .inpute{
         width: 250px;

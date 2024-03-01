@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
  import "./css_component/card.css";
+ import { FiSearch } from "react-icons/fi";
+
 
 const Appp=()=>{
     const[name,setName]=useState("null ")
@@ -23,7 +25,9 @@ const Appp=()=>{
     <div className="container">
       <div className="maincard">
         <div className="textcard">
-          <input type="search"  placeholder="eg. india" className="inpute" 
+        <FiSearch style={{position:"relative",left:"35px" ,top:"5px",fontSize:"1.3rem" ,color:"gray"}}/>
+
+          <input type="search"  placeholder=" eg. Kanpur" className="inpute" 
             onChange={(element)=>{
                 setinput(element.target.value)  
             }}
