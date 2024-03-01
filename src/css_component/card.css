@@ -8,45 +8,67 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(249, 93, 0);
+    color: rgb(3, 1, 29);
 }
 .maincard{
  text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 500px;
     height: 600px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
+    background: transparent;
+    backdrop-filter: blur(30px);
     border-radius: 39px;
+    margin-bottom: 2rem;
 }
 /* .maincard :hover{
     box-shadow: 0  0 10px   rgb(115, 60, 167); */
 /* } */
 .inpute{
     width: 331px;
-  height: 37px;
+  height: 43px;
   border: none;
   margin: 80px 0px;
   border-radius: 13px;
   font-size: 1.2rem;
   padding-left: 20px;
   background-color: hsla(0, 0%, 100%, 0.77);
-  color: #020000;
+  color: #020327;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.437);
 }
 .cityname{
     margin-top: 70px;
 }
 .cityname h1{
     font-size: 5rem;
-    color: rgb(249, 93, 0);
+    color: rgb(3, 1, 29);
     text-transform: capitalize;
 }
 .cityname h2{
     /* margin-top: 10px; */
     font-size: 3.5rem;
-    color: rgb(249, 93, 0);
+    color: rgb(3, 1, 29);
 }
 .cityname h3{
     margin-top: 10px;
     font-size: 1rem;
+}
+
+@media only screen and (max-width:600px){
+    .maincard{
+        text-align: center;
+           width: 330px;
+           height: 600px;
+       }
+       .inpute{
+        width: 250px;
+    }
+    .cityname h1{
+        font-size: 3rem;
+    }
+    .cityname h2{
+        /* margin-top: 10px; */
+        font-size: 2.5rem;
+        color: rgb(3, 1, 29);
+    }
 }
